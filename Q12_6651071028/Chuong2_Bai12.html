@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo form và các điều khiển</title>
+</head>
+<body style="font-family: 'Times New Roman', Times, serif;">
+
+    <h2 align="center" style="color: #385d19;">Phiếu đăng ký tham gia chương trình khuyến mãi</h2>
+
+    <form id="frmPromo">
+        <table align="center" border="1" bordercolor="#1b4d1b" cellpadding="5" cellspacing="0" style="background-color: #e5efe5; border-collapse: collapse; width: 650px; color: #1b4d1b;">
+            <tr>
+                <td style="width: 35%;">Họ và tên</td>
+                <td><input type="text" id="txtHoTen" size="40" value="Nguyễn Ngọc Quỳnh Nga"></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><input type="text" id="txtDiaChi" size="40" value="2Bia Hùng Vương, Q10"></td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td><input type="text" id="txtDienThoai" size="20" value="0909097506"></td>
+            </tr>
+            <tr>
+                <td>Phái</td>
+                <td>
+                    <input type="radio" name="gender" id="radNam" value="Nam"> Nam 
+                    <input type="radio" name="gender" id="radNu" value="Nữ" checked> Nữ
+                </td>
+            </tr>
+            <tr>
+                <td>Nghề nghiệp</td>
+                <td>
+                    <select id="cboNgheNghiep">
+                        <option value="Bác sĩ">Bác sĩ</option>
+                        <option value="Kỹ sư">Kỹ sư</option>
+                        <option value="Giáo viên" selected>Giáo viên</option>
+                        <option value="Khác">Khác</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Chọn sản phẩm tham gia</td>
+                <td>
+                    <select id="lstSanPham" size="4" multiple style="width: 150px;">
+                        <option value="Kem đánh răng" selected>Kem đánh răng</option>
+                        <option value="Bột giặt">Bột giặt</option>
+                        <option value="Dầu gội đầu" selected>Dầu gội đầu</option>
+                        <option value="Sữa tắm">Sữa tắm</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Số người dự đoán tham gia</td>
+                <td><input type="text" id="txtDuDoan" size="15" value="250000"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="button" id="btnDongY" value="Đồng ý" onclick="document.getElementById('lblThongBao').innerText = 'Bạn đã đăng ký thành công!!!';" style="padding: 2px 10px;">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center" style="height: 25px;">
+                    <div id="lblThongBao" style="color: red;"></div>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

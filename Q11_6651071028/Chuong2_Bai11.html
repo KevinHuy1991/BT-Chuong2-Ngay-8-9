@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo form và các điều khiển trên form</title>
+</head>
+<body style="font-family: 'Times New Roman', Times, serif;">
+
+    <h2 align="center" style="color: #9b301c;">Đăng nhập</h2>
+
+    <form id="loginForm">
+        <table align="center" border="1" bordercolor="#8a1a1a" cellpadding="5" cellspacing="0" style="background-color: #dcf0f7; border-collapse: collapse; width: 350px;">
+            <tr>
+                <td style="width: 40%;">Mã người dùng:</td>
+                <td><input type="text" id="txtUsername" value="ptnhung" style="width: 90%;"></td>
+            </tr>
+            <tr>
+                <td>Mật khẩu:</td>
+                <td><input type="password" id="txtPassword" value="12345678" style="width: 90%;"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="button" id="btnSubmit" value="Đồng ý" onclick="document.getElementById('lblOutput').innerText = document.getElementById('txtUsername').value;" style="padding: 2px 10px;">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center" style="height: 25px;">
+                    <div id="lblOutput" style="color: blue;"></div>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
