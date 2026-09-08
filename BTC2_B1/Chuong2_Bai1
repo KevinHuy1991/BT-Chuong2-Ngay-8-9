@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="viet">
+<head>
+    <meta charset="UTF-8">
+    <title>BTC2_B1</title>
+</head>
+<body>
+    <h1 align="center">Bài 01: Sử dụng các tag cơ bản</h1>
+    <h2 style="text-decoration: underline;">Yêu cầu</h2>
+    <strong>Thiết kế trang web có nội dung như sau:</strong>
+    <p align="center"> Lập trình web </p>
+    <p align="center"> Chào mừng bạn đến với ngôn ngữ HTML </p>
+</body>
+</html>

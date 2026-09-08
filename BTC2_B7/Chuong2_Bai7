@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="viet">
+<head>
+    <meta charset="UTF-8">
+    <title>BTC2_B5</title>
+</head>
+<body>
+    <h2 align="center" style="color:pink">
+        Định dạng văn bản
+    </h2>
+    <ol type="1"> 
+    <li><font style="background-color:pink"> Giới thiệu</font></li>
+    <li><font style="background-color:pink"> Liên hệ</font></li>
+    </ol>
+</body>
+</html>
